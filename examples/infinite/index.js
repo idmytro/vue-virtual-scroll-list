@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import InfiniteDemo from './infinite.vue'
 
-Vue.config.devtools = false
-Vue.config.productionTip = false
+Vue.config.debug = true
+Vue.config.devtools = true
+Vue.config.productionTip = true
 
 new Vue({
     el: '#app',
